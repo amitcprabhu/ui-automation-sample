@@ -33,6 +33,12 @@
                         <li class="page-item">
                             <button type="button" (click)="selectingNextPaging()" class="btn btn-link border">Next</button>
                         </li>
+                        <li class="page-item">
+                            &nbsp;&nbsp; Page Size : 
+                            <select class="browser-default custom-select" #t (change)="callType(t.value)">
+                                <option [value]="page" *ngFor="let page of pageSize" >{{page}}</option>                                
+                            </select>
+                        </li>
                     </ul>
                 </div>
             </div>
