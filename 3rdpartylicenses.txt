@@ -232,9 +232,6 @@ Apache-2.0
  
 
 
-@angular/forms
-MIT
-
 tslib
 Apache-2.0
 Apache License
@@ -313,6 +310,9 @@ MIT
 MIT
 
 @ngx-translate/core
+MIT
+
+@angular/forms
 MIT
 
 core-js
